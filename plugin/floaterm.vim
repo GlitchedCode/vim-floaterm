@@ -7,7 +7,7 @@
 
 if exists('g:neovide')
   if has('termguicolors')
-    set termguicolors
+    set termguicolors autowriteall
   endif
 endif
 if exists('g:loaded_floaterm')
