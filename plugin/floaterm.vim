@@ -5,6 +5,11 @@
 " GitHub: https://github.com/voldikss
 " ============================================================================
 
+if exists('g:neovide')
+  if has('termguicolors')
+    set termguicolors
+  endif
+endif
 if exists('g:loaded_floaterm')
   finish
 elseif !has('nvim') && !has('terminal')
