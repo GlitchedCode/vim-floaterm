@@ -50,7 +50,7 @@ command! -nargs=0           FloatermLast   call floaterm#last()
 
 hi def link Floaterm       Normal
 hi def link FloatermNC     NormalNC
-hi def link FloatermBorder NormalFloat
+hi def link FloatermBorder FloatBorder
 
 let g:floaterm_keymap_new    = get(g:, 'floaterm_keymap_new', '')
 let g:floaterm_keymap_prev   = get(g:, 'floaterm_keymap_prev', '')
